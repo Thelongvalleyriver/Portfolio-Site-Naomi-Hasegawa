@@ -14,12 +14,13 @@ img {
   
 /* Font styling */
   body {
-    background-color: #ffffff;
+    background-color: #0F1016;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px; /* Sets the font size to 16px */
+    font-size: 14px; /* Sets the font size to 16px */
     font-weight: 300; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #4a4a4a;
+    letter-spacing: 0.7px;
+    color: #ffffff;
   }
   
   h1, h2, h3, h4 {
@@ -74,12 +75,11 @@ a:focus {
 /* Buttons */
 .button {
     display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #ff7f50;
-    color: #ffffff; /* needed to override the default link color */
+    background-color: rgba(155,119,29,0.4);
+    color: #ffffff!important; /* needed to override the default link color */
     font-weight: 400;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #994c30; /* width of the border, type, color */
     transition: 0.2s opacity;
   }
   
@@ -90,12 +90,12 @@ a:focus {
 
   .button.contact {
     background-color: transparent;
-    color: #ff7f50;
+    color: #9B771D;
     text-transform: uppercase;
-    border: 2px solid #ff7f50;
+    border: 2px solid #9B771D;
   }
 
   .button.contact:hover {
-    background-color: #ff7f50;
+    background-color: #9B771D;
     color: #ffffff;
   }

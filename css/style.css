@@ -216,3 +216,13 @@ nav > ul > li > a:hover {
   padding-top: 20px;
   margin: 15px;
 }
+
+
+
+
+
+
+/* Border Website */
+body {
+  border: 10px solid #0B0D10;
+  }

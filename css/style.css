@@ -211,6 +211,10 @@ body {
   }
 
 
+
+
+
+/* Containers, Columns and Rows */
   .container {
     max-width: 1200px;
     margin-left: auto;
@@ -232,3 +236,13 @@ body {
       width: 50%;
     }
   }
+
+
+
+
+  /* Footer Styling */
+  #contact {
+    text-align: center;
+  }
+
+

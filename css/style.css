@@ -181,6 +181,12 @@ nav > ul > li > a:hover {
   color: rgba(155, 119, 29, 0.45)!important;
 }
 
+li {
+  list-style-type: none;
+  padding: 0;
+
+}
+
 
 
 /* Hero Section */

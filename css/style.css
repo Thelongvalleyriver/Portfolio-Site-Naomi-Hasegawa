@@ -114,9 +114,9 @@ a:focus {
 
   /* Header Styling */
   header {
-    padding: 10px;
     margin: 10px;
     text-align: center;
+    padding: 10px 0 4px;
   }
   #hero h1, h2 {
     text-align: center; /* Centers text */
@@ -153,6 +153,27 @@ a:focus {
   }
 
 
+
+
+
+  /* Hamburger Menu Styling */
+
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255,127,80,0.5);
+  }
+  
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
+
+
+
+  
   
 
 
@@ -179,14 +200,10 @@ a:focus {
 
 
 /* List Styling */
-nav {
-  display: inline-block;
-  width: 100%;
-}
-
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 
@@ -360,6 +377,10 @@ body {
       padding-right: 1%;
     }
     
+    nav > ul {
+      margin: 1em 0;
+    }
+
   }
 
 

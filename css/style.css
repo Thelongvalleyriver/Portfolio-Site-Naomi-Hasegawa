@@ -122,6 +122,35 @@ a:focus {
     text-align: center; /* Centers text */
   }
 
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+  
+  .navtoggle .navtoggle.responsive {
+    position: relative;
+  }
+  
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 20px;
+  }
+  
+  .navtoggle.responsive li {
+    display: block;
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
 
 
   
@@ -160,9 +189,7 @@ nav > ul {
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
+
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -298,7 +325,15 @@ body {
 
 
 /* Media Quieries */
-  @media only screen and (min-width: 640px) {
+  @media only screen and (max-width: 640px) {
+
+    nav > ul > li {
+      display: inline-block;
+    }
+  }
+
+
+  @media only screen and (min-width: 641px) {
     header {
       text-align: unset;
       padding: 20px 0 13px;
@@ -309,6 +344,15 @@ body {
       float: right;
       margin-top: 4px;
     }
+
+    .navtoggle li:not(:last-child) {
+      display: inline-block!important;
+    }
+
+    .navtoggle li:last-child {
+      display: none!important;
+    }
+ 
 
     .col-md-6 {
       width: 48%;
@@ -344,4 +388,3 @@ body {
 
   @media only screen and (min-width: 1440px) {
   }
-

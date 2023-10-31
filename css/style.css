@@ -319,6 +319,10 @@ body {
     padding: 30px;
   }
 
+body { 
+    overflow-x: hidden!important; 
+  }
+
 
 
 

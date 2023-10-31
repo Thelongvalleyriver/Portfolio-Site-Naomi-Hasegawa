@@ -153,6 +153,11 @@ a:focus {
   }
 
 
+  .icon {
+    fill: rgba(155,119,29,0.4);
+    padding-top: 30px;
+
+  }
 
 
 
@@ -173,7 +178,7 @@ a:focus {
 
 
 
-  
+
   
 
 

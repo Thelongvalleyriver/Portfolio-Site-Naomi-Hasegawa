@@ -33,7 +33,8 @@ img {
     font-size: 1.75em;
     font-weight: 400;
     text-transform: uppercase;
-    color: rgba(216, 216, 216, 0.693)
+    color: rgba(216, 216, 216, 0.693);
+    text-align: center;
   }
   
   h2 {
@@ -114,12 +115,13 @@ a:focus {
 
   /* Header Styling */
   header {
-    margin: 10px;
     text-align: center;
-    padding: 10px 0 4px;
+    background-color: #0F1016;
+    padding-top: 50px!important;
   }
   #hero h1, h2 {
     text-align: center; /* Centers text */
+    padding-bottom: 30px;
   }
 
   .navtoggle li:not(:last-child) {
@@ -156,8 +158,47 @@ a:focus {
   .icon {
     fill: rgba(155,119,29,0.4);
     padding-top: 30px;
-
   }
+
+
+  #hero1 {
+    padding-left: 650px;
+    padding-right: 650px;
+    padding-top: 75px!important;
+    padding-bottom: 75px!important;
+    background-color: #111219!important;
+    margin-left: -300px;
+    margin-right: -300px;
+  }
+
+  #hero {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 75px!important;
+    padding-bottom: 75px!important;
+    background-color: #111219!important;
+  }
+
+  #skills {
+    background-color: #0F1016;
+    padding-bottom: 100px;
+    margin-left: -300px;
+    margin-right: -300px;
+  }
+
+  #works {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #0F1016;
+  }
+
+  #work {
+  background-color: #111219;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  }
+
+
 
 
 
@@ -194,12 +235,17 @@ a:focus {
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+.row2 {
+  padding-top: 5px;
+  padding-bottom: 100px;
+}
 
 
 
 /* Logo */
 .logo {
   max-width: 150px;
+  margin-top: -20px;
 }
 
 
@@ -243,8 +289,8 @@ li {
   background-color: #0F1016;
   padding-top: 2em;
   padding-bottom: 3em;
-  border-left: -10px;
-  border-right: -10px;
+  border-left: -5%;
+  border-right: -5%;
   text-align: center;
 }
 
@@ -256,8 +302,7 @@ li {
 
 /* Footer Styling */
 #contact {
-  padding-top: 20px;
-  margin: 15px;
+  background-color: #111219!important;
 }
 
 
@@ -267,7 +312,11 @@ li {
 
 /* Border Website */
 body {
-  border: 10px solid #0B0D10;
+  border: 3em solid #0B0D10;
+  }
+
+  .spacing {
+    padding: 30px;
   }
 
 
@@ -298,6 +347,18 @@ body {
   /* Footer Styling */
   #contact {
     text-align: center;
+    margin-top: -20px;
+    padding-top: 30px;
+    padding-bottom: 20px!important;
+  }
+
+  .socialicon1 {
+    fill: rgba(155,119,29,0.4);
+    text-align: right;
+  }
+
+  .socialicon2 {
+    fill: rgba(155,119,29,0.4);
   }
 
 
@@ -381,6 +442,8 @@ body {
       padding-left: 1%;
       padding-right: 1%;
     }
+
+
     
     nav > ul {
       margin: 1em 0;
@@ -413,4 +476,32 @@ body {
 
 
   @media only screen and (min-width: 1440px) {
+  }
+
+
+
+
+  /* back to top scroll button */
+  html {
+    scroll-behavior: smooth !important;
+  }
+  
+  #myBtn { 
+     width: 30px;
+     height: 30px;
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 10px;
+     z-index: 99;
+     outline: none;
+     font-size: 12px !important;
+     color: white;
+     cursor: pointer;
+     background-color: #493B1F;
+     border-color: #493B1F ;
+  }
+  
+  #myBtn:hover {
+     background-color: #A2701F;
   }

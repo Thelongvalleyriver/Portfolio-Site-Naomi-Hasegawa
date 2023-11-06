@@ -61,19 +61,19 @@ h4 {
 
 /* Hyperlinks */
 a {
-  color: rgba(155,119,29,1);
+  color: #ff7f50;
   text-decoration: none; /* No underlining */
 }
 a:hover {
-  color: rgba(155,119,29,1);
+  color: #cc6540;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 a:visited { /* visited link */
-  color: rgba(155,119,29,0.4);
+  color: #ff7f50;
 }
 a:active { /* selected link */
-  color: rgba(155,119,29,1);
+  color: #994c30;
 }
 
 a:hover,

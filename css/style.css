@@ -61,19 +61,19 @@ h4 {
 
 /* Hyperlinks */
 a {
-  color: #ff7f50;
+  color: #9B771D;
   text-decoration: none; /* No underlining */
 }
 a:hover {
-  color: #cc6540;
+  color: #9B771D;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 a:visited { /* visited link */
-  color: #ff7f50;
+  color: #9B771D;
 }
 a:active { /* selected link */
-  color: #994c30;
+  color: #9B771D;
 }
  
 a:hover,
